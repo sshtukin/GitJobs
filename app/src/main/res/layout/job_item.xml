@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:text="@string/company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvLabelCompany"
+                android:textAlignment="textEnd"
+                style="@style/MyTextViewStyle"/>
+
+        <TextView
+                android:text="@string/position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvLabelPosition"
+                android:textAlignment="textEnd"
+                style="@style/MyTextViewStyle"/>
+
+        <TextView
+                android:text="@string/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvLabelLocation"
+                android:textAlignment="textEnd"
+                style="@style/MyTextViewStyle"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                tools:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCompany"
+                style="@style/MyTextViewStyle"/>
+
+        <TextView
+                tools:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvPosition"
+                android:ellipsize="end"
+                android:maxLines="1"
+                style="@style/MyTextViewStyle"/>
+
+        <TextView
+                tools:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvLocation"
+                style="@style/MyTextViewStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>
